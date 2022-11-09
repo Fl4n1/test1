@@ -1,0 +1,214 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../font/Inter-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Inter-300";
+    src: url("../font/Inter-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    position: relative;
+    /* background-color: rgb(0, 0, 0); */
+    color: azure;
+    font-family: 'Inter', sans-serif;
+}
+
+.main__container {
+    /* background-image: url("../image/image\ 3.png");
+    background-color: rgb(0, 0, 0); */
+    background-repeat: no-repeat;
+}
+
+.img__atoll {
+    margin-top: 53px;
+    margin-bottom: 75px;
+}
+
+.menu__tel {
+    margin-top: 88px;
+    text-align: center;
+}
+
+.need__help {
+    border-radius: 5px;
+    border: 2px solid #00aeef;
+    padding: 20px 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+}
+
+.here__click {
+    color: rgba(0, 174, 239, 1)
+}
+
+.menu-contact {
+    position: static;
+}
+
+.need__help:hover {
+    color: rgba(0, 174, 239, 1)
+}
+
+.menu__bar {
+    background: rgba(23, 35, 59, 1);
+    height: 100vh;
+    position: relative;
+}
+
+.call {
+    font-family: 'Inter';
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.info__ {
+    position: absolute;
+    bottom: 35px;
+    left: 10px;
+}
+
+.info__atoll {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 5px;
+    text-transform: uppercase;
+    color: #9C9C9C;
+}
+
+.precol {
+    background-color: rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.nav__style li {
+    margin-left: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+.nav__style li a {
+    color: rgb(255, 255, 255);
+}
+
+.nav__style li a:hover {
+    color: rgba(0, 174, 239, 1)
+}
+
+.error__404 {
+    /* position: absolute; */
+    max-width: 800px;
+}
+
+.error__404 h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 77px;
+    text-transform: uppercase;
+}
+
+.error__404 p {
+    font-family: 'Inter-300';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.bgBanner__moscow {
+    background-image: url(/image/image\ 3.png);
+}
+
+.basic__slider {
+    position: relative;
+}
+
+.height__100-vh {
+    height: 100vh;
+}
+
+.bg {
+    background-position: center top;
+    background-size: cover;
+}
+
+.basic__slider .container {
+    height: 100%;
+}
+
+.hero__caption {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.hero__caption {
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}
+
+.hero__text {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    position: relative;
+}
+
+.col_7_css {
+    margin-left: 60px;
+}
+
+.col_5_css {
+    width: 450px;
+}
+
+.fseeeee {
+    height: 100%;
+}
+
+.sssssssss {
+    vertical-align: middle;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+footer {
+    background-color: rgba(0, 67, 122, 1);
+}
+
+.footer__block {
+    padding: 40px 0;
+}
+
+.last__item__text {
+    max-width: 370px;
+}
+
+.fg {
+    max-width: 1923px;
+    margin: 0 auto;
+}
